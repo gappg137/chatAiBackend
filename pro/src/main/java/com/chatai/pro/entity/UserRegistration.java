@@ -1,8 +1,9 @@
-package com.chatai.entity;
+package com.chatai.pro.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import jakarta.annotation.Generated;
 import lombok.Data;
 
 @Data
@@ -10,7 +11,7 @@ import lombok.Data;
 public class UserRegistration {
 	
 	@Id
-	private Long id;
+	private String id;
 	private String username;
 	private String password;
 	

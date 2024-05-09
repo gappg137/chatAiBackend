@@ -1,10 +1,11 @@
-package com.chatai.service;
+package com.chatai.pro.service;
 
-import com.chatai.dto.RegistrationDto;
+
+import com.chatai.pro.dto.RegistrationDto;
+
+
 
 public interface Registrationservice{
-	
-	
 	
 	public RegistrationDto save(RegistrationDto registrationDto);
 }

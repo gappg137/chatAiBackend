@@ -1,11 +1,12 @@
-package com.chatai.serviceimpl;
+package com.chatai.pro.serviceimpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import com.chatai.dto.RegistrationDto;
-import com.chatai.repository.RegistrationRepository;
-import com.chatai.service.Registrationservice;
-
+import com.chatai.pro.dto.RegistrationDto;
+import com.chatai.pro.repository.RegistrationRepository;
+import com.chatai.pro.service.Registrationservice;
+@Service
 public class RegistrationServiceImpl implements Registrationservice{
 
 	@Autowired

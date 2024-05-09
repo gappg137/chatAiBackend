@@ -1,4 +1,4 @@
-package com.chatai.controller;
+package com.chatai.pro.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.chatai.dto.RegistrationDto;
-import com.chatai.repository.RegistrationRepository;
-import com.chatai.service.Registrationservice;
+import com.chatai.pro.dto.RegistrationDto;
+import com.chatai.pro.repository.RegistrationRepository;
+import com.chatai.pro.service.Registrationservice;
 
 
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
-@RequestMapping("/x")
+@RequestMapping("x")
 public class UserRegistrationController {
 	@Autowired
 	private RegistrationRepository registrationRepository;
